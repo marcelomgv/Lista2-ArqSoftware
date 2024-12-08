@@ -6,11 +6,9 @@ const [cmd, script, param1] = process.argv,
 const facade = new ClasseFacade()
 
 try {
-  
   facade.defineEstrategia(param1)
   const output = facade.relatorio(filename);
   console.log(output);
-
 } catch (error) {
   console.error(`Error: ${error.message}`);
   process.exit(1);
