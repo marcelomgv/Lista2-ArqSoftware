@@ -25,8 +25,4 @@ export default class Facade{
     relatorio(){
         return this.CitiesReporter.report(this.fileName);
     }
-
-
-
-
 }
