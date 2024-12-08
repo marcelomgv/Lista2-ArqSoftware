@@ -7,7 +7,6 @@ export default class Facade{
     constructor(){
         this.FormaterTXT = new FormaterTXT()
         this.FormaterHTML = new FormaterHTML()
-        this.fileName = '../data/cidades-2.json'
     }
 
     defineEstrategia(estrategia){
@@ -22,8 +21,8 @@ export default class Facade{
         }
     }
 
-    relatorio(){
-        return this.CitiesReporter.report(this.fileName);
+    relatorio(fileName){
+        return this.CitiesReporter.report(fileName);
     }
 
 
