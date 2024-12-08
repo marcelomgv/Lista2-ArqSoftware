@@ -2,7 +2,7 @@ import AbstractFormater from './AbstractFormater.js';
 
 export default class FormaterHTML extends AbstractFormater {
 
-  output (cities) {
+  output(cities) {
     let html = `
   <!DOCTYPE HTML>
   <html>

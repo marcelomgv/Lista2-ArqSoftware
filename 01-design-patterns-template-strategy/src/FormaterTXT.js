@@ -2,7 +2,7 @@ import AbstractFormater from './AbstractFormater.js';
 
 export default class FormaterTXT extends AbstractFormater {
 
-  output (cities) {
+  output(cities) {
     let txt = `Relatório de Nomes de Cidades
   =============================\n`;
 
