@@ -25,5 +25,4 @@ export default class Facade{
         return this.CitiesReporter.report(fileName);
     }
 
-
 }
