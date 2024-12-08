@@ -1,7 +1,7 @@
 export default class AbstractFormater {
 
   //Falta de obrigatoriedade para implementação do método output (LSP)
-  //Garantia de que a classe não seja instânciada diretamente
+  //Garantia de que a classe não seja instanciada diretamente
   //Garantia de que qualquer subclasse que herde AbstractFormater implemente o método output
   //Com isso garantindo que o método não seja esquecido ou mal implementado nas subclasses através da validação no contrutor
   constructor() {
