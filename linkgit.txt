@@ -1,0 +1,1 @@
+https://github.com/marcelomgv/Lista2-ArqSoftware/tree/main/01-design-patterns-template-strategy
